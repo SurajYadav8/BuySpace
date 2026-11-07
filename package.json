@@ -1,0 +1,42 @@
+{
+  "name": "buyspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:hedera": "node scripts/deploy-hedera-airspace.mjs",
+    "deploy:market": "node scripts/deploy-market-only.mjs"
+  },
+  "dependencies": {
+    "@arkiv-network/sdk": "^1.0.1",
+    "@hashgraph/asset-tokenization-sdk": "^8.0.0",
+    "@hashgraph/sdk": "^2.64.5",
+    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@tanstack/react-query": "^5.59.15",
+    "@wagmi/core": "^2.16.5",
+    "@walletconnect/ethereum-provider": "^2.26.0",
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0",
+    "framer-motion": "^11.18.2",
+    "mapbox-gl": "^3.34.2",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "viem": "^2.39.0",
+    "wagmi": "^2.19.5"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "solc": "^0.8.20",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
